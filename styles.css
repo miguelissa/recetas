@@ -1,0 +1,117 @@
+body {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+    background-color: #91c68d;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+    text-decoration: solid;
+}
+
+.menu-btn {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    background-color: #ece488;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: solid;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #ece488;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #91c68d;
+}
+
+.menu, li:last-child {
+    border-bottom: none;
+}
+
+a{
+    text-decoration: solid;
+    color:black;
+}
+.menu {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu-btn, a{
+    font-size: 1rem;
+}
+.menu-btn:hover,a:hover {
+    background-color: #91c68d;
+    border: solid 1px black;
+}
+.recetas:hover{
+    display: block;
+}
+.home {
+    color: black;
+    text-decoration: solid;
+    background-color: #ece488;
+    padding: 10px 20px;
+}
+
+.home:hover {
+    background-color: #91c68d;
+}
+
+header {
+    background-color: #f6f5cd   ;
+    display: flexbox;
+    padding: 20px 20px;
+}
+
+footer {
+    display: flexbox;
+    background-color:#f6f5cd;
+    color: black;
+    width: 97%;
+    bottom: 0;
+    left: 0;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.pasos, .ingredientes{
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.home-body{
+    background-image: url(assets/fondo-home.jfif);
+}
+
+.home-content{
+    background-color: #91c68d;
+    padding: 1rem 0;
+    display: block;
+}
+
+.registro{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.home-footer{
+    position: fixed;
+}
